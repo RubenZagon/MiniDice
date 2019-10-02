@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    background: orange;
+}
+
+.container {
+    margin: 20vmin auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vmin;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cuerpoDado {
+    background: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 20vmin;
+    height: 20vmin;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dado {
+    font-size: calc(10vh - 8px);
+}
+
+#lanzar {
+    width: 100%;
+    height: 7vmin;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.record {
+    border-top: 1px solid black;
+    width:30vh;
+    padding: 30px 0px;
+    margin: auto;
+}
